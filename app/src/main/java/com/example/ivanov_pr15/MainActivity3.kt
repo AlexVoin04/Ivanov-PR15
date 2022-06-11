@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity2 : AppCompatActivity() {
+class MainActivity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_main3)
     }
-    fun onClickStepsActivity3(view: View){
-        val intent = Intent(this, MainActivity3::class.java)
+    fun onClickStepsActivity(view: View){
+        val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 }
