@@ -107,6 +107,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
+        android:onClick="onClickStepsActivity2"
         android:id="@+id/button"
         android:layout_width="600dp"
         android:layout_height="70dp"
